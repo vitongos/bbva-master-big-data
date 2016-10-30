@@ -16,6 +16,7 @@ chmod +x big-data-src/deploy/*.sh
 
 ### Installing Software
 ```bash
-cd ~/big-data-src/
+cd /home/centos/big-data-src/
+sudo -i
 deploy/software.sh
 ```
