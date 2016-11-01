@@ -20,3 +20,5 @@ cd /home/centos/big-data-src/
 sudo -i
 deploy/software.sh
 ```
+
+Neo4j username/password: **neo4j/neo**

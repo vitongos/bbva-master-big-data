@@ -8,4 +8,4 @@ mongod --port 30002 --dbpath /data/store/member2 --logpath /data/store/member2/m
 mongod --port 30003 --dbpath /data/store/member3 --logpath /data/store/member3/mongo.log --fork --replSet myReplicaSet --smallfiles --oplogSize 128
 
 cd /home/centos/big-data-src
-mongo --port 30001 < data/replica-set-config.js
+mongo --port 30001 < scripts/replica-set-config.js

@@ -120,17 +120,30 @@ TimeoutSec=600
 WantedBy=multi-user.target
 EOF
 
+cd /tmp
+wget http://example-data.neo4j.org/3.0-datasets/cineasts.tgz
+tar xzf cineasts.tgz
+rm -rf /opt/neo4j-community-3.0.6/data/databases/graph.db/
+cp -R graph.db /opt/neo4j-community-3.0.6/data/databases/
+chown neo4j:centos /opt/neo4j-community-3.0.6/data/ -R
+
 systemctl daemon-reload
 systemctl enable neo4j.service
 service neo4j start
+
+cd /tmp
+curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
+python get-pip.py
+pip install cycli
 
 cd /opt
 bunzip2 samples-database.tar.bz2
 tar -xf samples-database.tar
 rm samples-database.tar
+
 wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/mars/2/eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
 tar xzf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
 ln -s /opt/eclipse/eclipse /usr/bin/eclipse
 
-mkdir -p /data/Store
+mkdir -p /data/store
 chown centos:centos /data -R

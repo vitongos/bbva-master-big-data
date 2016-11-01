@@ -14,4 +14,4 @@ mkdir -p mongos1
 mongos --configdb localhost:30201 --port 30202 --logpath /data/store/mongos1/mongo.log --fork 
 
 cd /home/centos/big-data-src
-mongo --port 30202 < data/shard-config.js
+mongo --port 30202 < scripts/shard-config.js
