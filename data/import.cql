@@ -2,7 +2,7 @@ USING PERIODIC COMMIT 200
 LOAD CSV WITH HEADERS FROM 'file:///comtrade.2015.nodes.csv' AS line 
 CREATE (c:Country {id:toInt(line.id), name:line.name, code:line.code});
 
-CREATE INDEX ON :Country(id)
+CREATE INDEX ON :Country(id);
 
 USING PERIODIC COMMIT 200
 LOAD CSV WITH HEADERS FROM 'file:///comtrade.2015.rels.csv' AS line
