@@ -1,0 +1,145 @@
+id,name,code
+8,Albania,ALB
+12,Algeria,DZA
+24,Angola,AGO
+31,Azerbaijan,AZE
+32,Argentina,ARG
+36,Australia,AUS
+40,Austria,AUT
+48,Bahrain,BHR
+51,Armenia,ARM
+56,Belgium,BEL
+60,Bermuda,BMU
+68,Bolivia (Plurinational State of),BOL
+70,Bosnia Herzegovina,BIH
+76,Brazil,BRA
+96,Brunei Darussalam,BRN
+100,Bulgaria,BGR
+112,Belarus,BLR
+116,Cambodia,KHM
+120,Cameroon,CMR
+124,Canada,CAN
+132,Cabo Verde,CPV
+144,Sri Lanka,LKA
+152,Chile,CHL
+156,China,CHN
+170,Colombia,COL
+188,Costa Rica,CRI
+191,Croatia,HRV
+196,Cyprus,CYP
+203,Czechia,CZE
+204,Benin,BEN
+208,Denmark,DNK
+214,Dominican Rep.,DOM
+218,Ecuador,ECU
+222,El Salvador,SLV
+231,Ethiopia,ETH
+233,Estonia,EST
+242,Fiji,FJI
+246,Finland,FIN
+251,France,FRA
+258,French Polynesia,PYF
+268,Georgia,GEO
+276,Germany,DEU
+300,Greece,GRC
+304,Greenland,GRL
+320,Guatemala,GTM
+344,"China, Hong Kong SAR",HKG
+348,Hungary,HUN
+352,Iceland,ISL
+372,Ireland,IRL
+376,Israel,ISR
+381,Italy,ITA
+384,Cote d'Ivoire,CIV
+392,Japan,JPN
+398,Kazakhstan,KAZ
+400,Jordan,JOR
+410,Rep. of Korea,KOR
+414,Kuwait,KWT
+417,Kyrgyzstan,KGZ
+428,Latvia,LVA
+440,Lithuania,LTU
+442,Luxembourg,LUX
+450,Madagascar,MDG
+458,Malaysia,MYS
+470,Malta,MLT
+480,Mauritius,MUS
+484,Mexico,MEX
+490,"Other Asia, nes",
+496,Mongolia,MNG
+498,Rep. of Moldova,MDA
+499,Montenegro,MNE
+504,Morocco,MAR
+512,Oman,OMN
+524,Nepal,NPL
+528,Netherlands,NLD
+554,New Zealand,NZL
+558,Nicaragua,NIC
+562,Niger,NER
+579,Norway,NOR
+586,Pakistan,PAK
+600,Paraguay,PRY
+604,Peru,PER
+616,Poland,POL
+620,Portugal,PRT
+634,Qatar,QAT
+642,Romania,ROU
+643,Russian Federation,RUS
+646,Rwanda,RWA
+682,Saudi Arabia,SAU
+686,Senegal,SEN
+688,Serbia,SRB
+699,India,IND
+702,Singapore,SGP
+703,Slovakia,SVK
+705,Slovenia,SVN
+710,South Africa,ZAF
+716,Zimbabwe,ZWE
+724,Spain,ESP
+752,Sweden,SWE
+757,Switzerland,CHE
+764,Thailand,THA
+768,Togo,TGO
+788,Tunisia,TUN
+792,Turkey,TUR
+804,Ukraine,UKR
+807,TFYR of Macedonia,MKD
+818,Egypt,EGY
+826,United Kingdom,GBR
+834,United Rep. of Tanzania,TZA
+842,USA,USA
+854,Burkina Faso,BFA
+858,Uruguay,URY
+887,Yemen,YEM
+894,Zambia,ZMB
+328,Guyana,GUY
+508,Mozambique,MOZ
+690,Seychelles,SYC
+729,Sudan,SDN
+52,Barbados,BRB
+608,Philippines,PHL
+72,Botswana,BWA
+84,Belize,BLZ
+108,Burundi,BDI
+275,State of Palestine,PSE
+324,Guinea,GIN
+388,Jamaica,JAM
+454,Malawi,MWI
+540,New Caledonia,NCL
+591,Panama,PAN
+694,Sierra Leone,SLE
+90,Solomon Isds,SLB
+800,Uganda,UGA
+140,Central African Rep.,CAF
+678,Sao Tome and Principe,STP
+44,Bahamas,BHS
+670,Saint Vincent and the Grenadines,VCT
+4,Afghanistan,AFG
+136,Cayman Isds,CYM
+462,Maldives,MDV
+28,Antigua and Barbuda,ATG
+446,"China, Macao SAR",MAC
+585,Palau,PLW
+882,Samoa,WSM
+533,Aruba,ABW
+368,Iraq,IRQ

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-sudo -i
-
 cat << EOF > /etc/yum.repos.d/google-chrome.repo
 [google-chrome]
 name=google-chrome - \$basearch
