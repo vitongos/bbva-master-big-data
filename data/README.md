@@ -4,6 +4,18 @@ Sample datasets
 Setup
 -----------
 
+### Import Comtrade 2015 graph
+Run in console:
+```bash
+cd /home/centos/big-data-src
+cp data/comtrade.2015.*.csv /opt/neo4j-community-3.0.6/import/
+bunzip2 samples-database.tar.bz2
+tar -xf samples-database.tar
+rm samples-database.tar
+mongorestore -d samples -c students samples/students.bson
+rm -rf samples
+```
+
 Download the [Dataset](https://mega.co.nz/#!WVgSFYBZ!5C28emvkBqMWTlnEmYFvKxOej671tdKT7INiNsrbNQA) into **/opt**
 
 ### Restore students collection
