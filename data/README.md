@@ -9,6 +9,7 @@ Run in console:
 ```bash
 cd /home/centos/big-data-src
 cp data/comtrade.2015.*.csv /opt/neo4j-community-3.0.6/import/
+sudo chown neo4j:centos /opt/neo4j-community-3.0.6/import/*
 /opt/neo4j-community-3.0.6/bin/neo4j-shell -file data/import.cql 
 ```
 
