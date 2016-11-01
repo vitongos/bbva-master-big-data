@@ -1,7 +1,7 @@
 USING PERIODIC COMMIT 200
 LOAD CSV WITH HEADERS FROM 'file:///home/centos/big-data-src/data/comtrade.2015.nodes.csv' AS line 
 CREATE (c:Country {id:toInt(line.id), name:line.name, code:line.code})
-RETURN p;
+RETURN c;
 
 CREATE INDEX ON :Country(id)
 
