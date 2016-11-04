@@ -10,7 +10,7 @@ session = driver.session()
 
 session.run("CREATE (a:King {name:'Arthur', title:'King'})")
 
-result = session.run("MATCH (a:Person) WHERE a.name = 'Arthur' RETURN a.name AS name, a.title AS title")
+result = session.run("MATCH (a:King) WHERE a.name = 'Arthur' RETURN a.name AS name, a.title AS title")
 for record in result:
   print("%s %s" % (record["title"], record["name"]))
 
