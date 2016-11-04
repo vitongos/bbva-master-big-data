@@ -8,10 +8,11 @@ from neo4j.v1 import GraphDatabase, basic_auth
 driver = GraphDatabase.driver("bolt://localhost", auth=basic_auth("neo4j", "neo"))
 session = driver.session()
 
-session.run("CREATE (a:King {name:'Arthur', title:'King'})")
+session.run("CREATE (a:Sword {name:'Excalibur', owner:'King Arthur'})")
+session.run("CREATE (a:Sword {name:'Tizona', owner:'El Cid'})")
 
-result = session.run("MATCH (a:King) WHERE a.name = 'Arthur' RETURN a.name AS name, a.title AS title")
+result = session.run("MATCH (a:Sword) RETURN a.name AS name, a.owner AS owner")
 for record in result:
-  print("%s %s" % (record["title"], record["name"]))
+  print("%s belongs to %s" % (record["name"], record["owner"]))
 
 session.close()
