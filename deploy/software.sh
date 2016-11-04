@@ -136,6 +136,8 @@ curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 python get-pip.py
 pip install cycli
 pip install neo4j-driver
+pip install virtualenv
+pip install neo4jrestclient
 
 cd /opt
 bunzip2 samples-database.tar.bz2
@@ -145,6 +147,15 @@ rm samples-database.tar
 wget http://ftp.fau.de/eclipse/technology/epp/downloads/release/mars/2/eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
 tar xzf eclipse-jee-mars-2-linux-gtk-x86_64.tar.gz
 ln -s /opt/eclipse/eclipse /usr/bin/eclipse
+
+yum install -y epel-release 
+yum update -y 
+yum install -y R
+su -c 'rpm -Uhv http://download1.rstudio.org/rstudio-0.97.320-x86_64.rpm'
+yum -y install mesa-libGL-devel mesa-libGLU-devel libpng-devel
+yum -y install libcurl libcurl-devel openssl-devel
+yum -y install libxml2-devel
+yum -y install libjpeg libjpeg-devel
 
 mkdir -p /data/store
 chown centos:centos /data -R
