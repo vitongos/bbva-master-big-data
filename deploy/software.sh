@@ -74,6 +74,13 @@ chmod 755 /etc/init.d/disable-transparent-hugepages
 
 chkconfig --add disable-transparent-hugepages
 
+cd /tmp
+wget https://github.com/rsercano/mongoclient/releases/download/1.3.0/linux-portable-x64.zip
+unzip linux-portable-x64.zip
+mkdir /opt/mongoclient
+mv Mongoclient-linux-x64/* /opt/mongoclient/
+ln -s /opt/mongoclient/Mongoclient /usr/bin/mongoclient
+
 chown centos:centos /opt -R
 cd /opt/
 wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" "http://download.oracle.com/otn-pub/java/jdk/8u112-b15/jdk-8u112-linux-x64.tar.gz"
